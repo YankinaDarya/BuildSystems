@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.13)
+project(buildSystems)
+set(SOURCE_EXE B/main.cpp)
+set(HEADERS B/main.h)
+include_directories(A)
+add_executable(buildSystems ${SOURCE_EXE} ${HEADERS})

@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.13)
+project(library)
+set(HEADERS lib.h)
+add_library(lib STATIC ${HEADERS})
+target_sources(lib PUBLIC ${HEADERS})
