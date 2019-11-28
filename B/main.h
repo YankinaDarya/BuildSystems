@@ -1,3 +1,3 @@
-#include "../A/lib.h"
+#include "A/lib.h"
 
 int main();
